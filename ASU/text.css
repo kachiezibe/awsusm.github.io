@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: rgb(235, 162, 186);
+}
+nav{
+    width: 100%;
+    display: flex;
+    padding-top: 10px;
+}
+nav ul{
+    flex: 1;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: rgb(2, 2, 73);
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(253, 3, 99);
+}
+
+.logo{
+    position: relative;
+    height: 80px;
+    width: 80px;
+    right: 20px;
+    border-radius: 50%;
+}
+
+
+
+
+h1{
+    text-align: center;
+    color: rgb(253, 3, 99);
+    font-size: 50px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+h2{
+    margin: 1.66%;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-family: georgia;
+    font-weight: 800;
+    border-bottom: 3px solid rgb(253, 3, 99);
+    width: 20%;
+    padding-bottom: 20px;
+}
+.pag1{
+    padding: 35px ;
+   
+    font-size: 24px ;
+    line-height: 1.4;
+    margin-bottom: 40px;
+   
+
+}
+hr{
+    height: 5px;
+    
+}
+.two{
+    padding: 35px;
+    font-size: 80px;
+    margin: 1.66%;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-family: georgia;
+    font-weight: 800;
+    border-bottom: 3px solid rgb(253, 3, 99);
+    width: 20%;
+    padding-bottom: 20px;
+
+}
+.container{
+    width: 1400px;
+    margin: 20px auto;
+    columns: 4;
+    column-gap: 20px;
+}
+.container .box{
+    width: 100%;
+    margin-bottom: 10px;
+    break-inside: avoid;
+
+}
+
+.container .box img{
+    max-width: 100%;
+    border-radius: 15px;
+}
+.container .box :hover{
+    box-shadow: 4px solid black;
+
+}
+.footer{
+    padding: 25px 50px;
+    text-align: center;
+    background: #666;
+    color: #fff;
+    
+}
+@media (max-width :1200px){
+    .container{
+        width: calc(100% - 40px);
+        columns: 3; 
+    }
+    
+        nav ul li {
+            display: inline-block;
+            margin: 1px 8px;
+            
+        }
+    
+    nav ul li a{
+        display: inline-block;
+        font-size: smaller;
+       
+    }
+    .logo{
+        width: 60px;
+        height: 59px;
+        position: relative;
+        
+           
+    }
+    h1{
+        font-size: 20px;
+        float: left;
+        padding: 20px;
+    }
+    h2{
+        margin: 1.5%;
+        font-size: 17px;
+        text-transform: uppercase;
+        font-family: georgia;
+        font-weight: 800;
+        border-bottom: 3px solid rgb(253, 3, 99);
+        width: 20%;
+        padding-bottom: 20px;
+    }
+}
+@media (max-width :760px){
+    .container{
+        columns: 2; 
+    }
+}
+@media (max-width :480px){
+    .container{
+        columns: 1; 
+    }
+    
+}
+   
+
+   
+   
+    
+    
+
